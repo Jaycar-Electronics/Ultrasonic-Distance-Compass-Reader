@@ -1,0 +1,20 @@
+Talkie Library
+--------------
+
+
+GNU General Public License, version 2
+
+Downloaded from:
+https://github.com/going-digital/Talkie/archive/master.zip
+
+Modified by Tim Blythman December 2015 to work with newer (1.58 and later) versions of Arduino that need PROGMEM variables set as consts.
+
+Changes:
+all phrases modified to const PROGMEM from PROGMEM
+
+say function changed to const uint8_t from uint8_t
+
+
+Future changes:
+need to add function definitons and prototypes for uint8_t back in, so content in RAM can be accessed.
+
